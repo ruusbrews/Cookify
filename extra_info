@@ -1,0 +1,16 @@
+# extra_info
+
+"""
+how does it work?
+- asks user to upload picture of fridge/shelf or to list ingredients they have on hand
+- asks user to enter any preferences (can include dietary restrictions, time restrictions, etc.) - this step is optional
+- by clicking a "generate" button, a loading message will appear as all user-input information is added to chatbot prompt and recipe collected
+- outputs a step by step recipe according to user-input info
+- there is a regenerate button in case the recipe is disliked, will generate a new recipe while still keeping the old one
+
+further details:
+- linked to Microsoft Azure OpenAI's gpt-4o model
+- have to create an ENV file with API key, endpoint and regional link for gpt model
+- i would decrease hallucination to avoid unrealistic recipes
+
+"""
